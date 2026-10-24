@@ -1,0 +1,22 @@
+{
+  "name": "auth-analyzer",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Local-first explainer for the access third-party apps hold on a Google Account.",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "build": "node build-extension.js"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "keywords": [
+    "google-account",
+    "oauth",
+    "privacy",
+    "chrome-extension",
+    "security"
+  ]
+}
