@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Auth Analyzer",
+  "version": "0.1.0",
+  "description": "Scan the Google apps connected to your account and explain, in plain language, which ones have more access than they need. Runs locally; no data leaves your browser.",
+  "permissions": [
+    "scripting",
+    "storage",
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://myaccount.google.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Auth Analyzer"
+  }
+}

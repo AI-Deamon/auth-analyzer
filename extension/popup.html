@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Auth Analyzer</title>
+<style>
+body{width:320px;margin:0;padding:14px;font:14px/1.45 system-ui,sans-serif;color:#1b1f24;background:#fff}
+@media (prefers-color-scheme:dark){body{background:#1b2027;color:#e7eaee}}
+h1{font-size:16px;margin:0 0 6px}p{margin:6px 0;color:#5d6672;font-size:12px}
+h2{font-size:13px;margin:12px 0 4px}
+button{width:100%;padding:9px;border:0;border-radius:8px;background:#2457d6;color:#fff;font:inherit;font-weight:600;cursor:pointer;margin-top:8px}
+button.alt{background:transparent;color:#2457d6;border:1px solid #2457d6}
+button:disabled{opacity:.6;cursor:default}
+#st{font-size:12px;margin-top:8px;min-height:16px}
+#accounts{border:1px solid #c9d0d9;border-radius:8px;padding:4px 8px}
+#accounts:empty{display:none}
+#accounts label{display:flex;gap:8px;align-items:center;padding:5px 0;font-size:13px;cursor:pointer}
+#accounts small{display:block;color:#5d6672}
+</style></head><body>
+<h1>Auth Analyzer</h1>
+<p>Reads the apps connected to the Google accounts you choose, in this browser only, and explains what access each one has.</p>
+<h2>Accounts to scan</h2>
+<div id="accounts" role="group" aria-label="Google accounts to scan"></div>
+<button id="find" class="alt">Find my Google accounts</button>
+<button id="scan" disabled>Scan selected accounts</button>
+<button id="resume" hidden>Resume interrupted scan</button>
+<button id="res" class="alt">View last results</button>
+<div id="st"></div>
+<script type="module" src="popup.js"></script>
+</body></html>

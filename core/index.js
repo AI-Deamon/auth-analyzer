@@ -1,0 +1,11 @@
+export { RULES_VERSION, SCOPE_REGISTRY, lookupScope, parseScopeInput, normalizeScopeId } from './registry.js';
+export { describeLine } from './describe.js';
+export { normalizeRecord, EXTRACTION_CONFIG, idFromHref, findDetailsLinks } from './parse.js';
+export { RULES as SENSITIVITY_RULES, classifyCapability, overallSensitivity, sensitivityRank } from './sensitivity.js';
+export { PURPOSES, evaluatePurpose } from './purpose.js';
+export { evaluateConfidence } from './confidence.js';
+export { recommend, STALE_MONTHS } from './recommend.js';
+export { analyzeRecord, analyzeAll } from './analyze.js';
+export { explain, capabilitySentence } from './explain.js';
+export { buildReport } from './report.js';
+export { MAX_ACCOUNTS, parseAccountLabel, pickAccountLabel, uniqueAccounts, withAuthUser, accountLabel, accountKey, resolveSelection, verifyAccount } from './accounts.js';
