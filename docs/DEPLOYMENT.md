@@ -60,7 +60,7 @@ Open the printed address. Click **Load example**, or paste scope IDs (one per li
 
 There is no build step. Publish the repository root (the demo needs `index.html`, `core/` and `ui/`).
 
-**GitHub Pages:** Settings, Pages, deploy from the `main` branch, folder `/ (root)`. The demo is served at `https://<user>.github.io/<repo>/`.
+**GitHub Pages:** Settings, Pages, deploy from the `main` branch, folder `/ (root)`. This repository is deployed that way and is live at https://ai-deamon.github.io/auth-analyzer/ .
 
 **Vercel:** `vercel --prod` from the repository root. Framework preset: Other. Build command: none. Output directory: `.`
 
