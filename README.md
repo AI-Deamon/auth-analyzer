@@ -7,6 +7,10 @@ Auth Analyzer is a local-first Chrome/Edge extension (plus a small web demo) tha
 > Built for ExaThon India 2026. Licence: [MIT](LICENSE).
 >
 > **Try it now, no install and no Google account: https://ai-deamon.github.io/auth-analyzer/** (click "Load example").
+>
+> **Demo video (under 3 minutes): https://drive.google.com/file/d/1heV1sw2OC-518Y-wAiln2rgv7p2jm-cb/view?usp=sharing**
+>
+> Pitch deck: [PDF](docs/Auth-Analyzer-pitch-deck.pdf) | [PPTX](docs/Auth-Analyzer-pitch-deck.pptx)
 
 ---
 
