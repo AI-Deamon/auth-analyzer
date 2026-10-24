@@ -5,6 +5,8 @@
 Auth Analyzer is a local-first Chrome/Edge extension (plus a small web demo) that reads the "Third-party apps & services" page of your Google Account, turns each app's access into one clear explanation, and tells you what to check next. It is deliberately honest about what it does *not* know.
 
 > Built for ExaThon India 2026. Licence: [MIT](LICENSE).
+>
+> **Try it now, no install and no Google account: https://ai-deamon.github.io/auth-analyzer/** (click "Load example").
 
 ---
 
@@ -70,7 +72,7 @@ Install the extension. **It needs a Google account that is signed in to Chrome a
 
 What you should see: apps sorted most sensitive first, each with Access, Why it matters, Next step and Evidence status. Apps that only use "Sign in with Google" show "Low" with "See your basic profile info". A scan reads every connected app, so it takes a few minutes for 100 apps; it can be resumed if interrupted. Nothing is changed or revoked in your account.
 
-Run the web demo (no Google account needed):
+Run the web demo (no Google account needed). It is also live at https://ai-deamon.github.io/auth-analyzer/ . To run it locally:
 
 ```bash
 npx serve .          # or: python -m http.server 8000
