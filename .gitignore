@@ -1,0 +1,18 @@
+# PRIVATE DATA - never publish. Exported reports contain real account emails and the full list of connected apps.
+auth-analyzer-report*.json
+auth-analyzer-report*.html
+*.mhtml
+*report*.json
+Auth Analyzer results*
+
+# Dependencies and build artefacts
+node_modules/
+*.zip
+*.log
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.claude/
