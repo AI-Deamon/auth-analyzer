@@ -79,4 +79,4 @@ Notes for the store listing: the only host permission is `https://myaccount.goog
 
 ## 7. Continuous integration
 
-`.github/workflows/test.yml` runs `npm test` on every push and pull request.
+A ready-made GitHub Actions workflow is in [github-actions-test.yml](github-actions-test.yml). To enable CI, copy it to `.github/workflows/test.yml`; it runs `npm test` and `npm run build` on every push and pull request.
