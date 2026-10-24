@@ -54,19 +54,21 @@ Everything runs in your browser. There are **no network calls, analytics or tele
 **Requirements:** Node.js 22 or newer (tested on 24), and Chrome or Edge.
 
 ```bash
-git clone <this repository>
+git clone https://github.com/AI-Deamon/auth-analyzer.git
 cd auth-analyzer
 npm test            # runs the automated tests
 npm run build       # REQUIRED before loading the extension: generates extension/core and extension/ui
 ```
 
-Install the extension:
+Install the extension. **It needs a Google account that is signed in to Chrome and has connected apps.** No such account? Use the web demo below instead, which needs no Google account.
 
 1. Open `chrome://extensions` and turn on **Developer mode**.
 2. Click **Load unpacked** and choose the `extension` folder.
 3. Pin **Auth Analyzer**, click its icon, then **Find my Google accounts**.
 4. Tick the accounts to scan and click **Scan selected accounts**. A tab opens and steps through your connected apps (a few seconds each). Keep the browser open.
 5. A results tab opens when it finishes. Open **Evidence and technical details** on any app to see the original wording and rules.
+
+What you should see: apps sorted most sensitive first, each with Access, Why it matters, Next step and Evidence status. Apps that only use "Sign in with Google" show "Low" with "See your basic profile info". A scan reads every connected app, so it takes a few minutes for 100 apps; it can be resumed if interrupted. Nothing is changed or revoked in your account.
 
 Run the web demo (no Google account needed):
 
